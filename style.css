@@ -1,0 +1,20 @@
+body{
+    background-image: url(Photo by Pixabay: https://www.pexels.com/photo/2-grey-and-black-birds-45853/);
+    background-repeat: no-repeat;
+    background: size: cover;
+}
+img{
+    width: 460px;
+    height: 346px;
+    float:left;
+}
+body{
+    background-image:  url('Photo by Tuấn Kiệt Jr.: https://www.pexels.com/photo/woman-holding-pink-petaled-flower-1308881/');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    width: 1300px;
+    height: 1390px;
+    float: left;
+}
