@@ -1,34 +1,39 @@
 <html>
-   <hend>
-    <title>Movie Tickets</title>
-    <link rel="stylesheet" href="style.css">
+    <hend>
+        <title>sematic form</title>
+        <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
     <link rel="stylesheet"
-         href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     </hend>
-  <body>
-    <center>
-        <h1>Movie Tickets</h1>
-        <div>
-            <label>Name :</label>
-        <input type="test" placeholder="Enter your name" id="box1">
-        </div>
-        <img src="icons8-film-tickets-64.png">
-        <br>
-        <button onclick="add()">click here</button>
-        <br>
-        <label id="label1"></label>
-        </center>
-       </body>
-    <style>
-        body{
-            background-color: #e6aa05;
-        }
-        img{
-            margin: 50px;
-        }
-       </style>
-
+        <body>
+            <center>
+                <h1>Form To Fill</h1>
+                <form>
+                    <fieldset>
+                <legend>form</legend>
+                <label for="name">Name :</label>
+                <input type="text" id="name" placeholder="enter your name" name="name" required>
+                <br>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email">
+                <br>
+                <label form="password">Password :</label>
+                <input type="password" id="password" name="password">
+                <br>
+                <label for="country">Country :</label>
+                <select>
+                    <option value="choose your country">Choose your country</option>
+                    <option value="INDIA">INDIA</option>
+                    <option value="USA">USA</option>
+                    <option value="CHINA">CHINA</option>
+                    <option value="jJAPAN">JAPAN</option>
+                    <option value="RUSSIA">RUSSIA</option>
+                    <option value="AUSTRALIA">AUSTRALIA</option>
+                    
+                    
+                </select>
+            </fieldset>
+        </form>
+     </center>
+  </body>
 </html>
